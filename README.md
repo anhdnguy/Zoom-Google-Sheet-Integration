@@ -1,4 +1,4 @@
-# Zoom-Google-Sheet-Integration
+# Zoom and Google Spreadsheet Integration
 
 This Integraton can be used for organizations that use Zoom as their primary video communications platform.
 
