@@ -1,5 +1,5 @@
-# Since Zoom Access Token is expired every hour, I need to create a function to refresh the token
-# and schedule it with the Google App Script Default Trigger to run hourly
+// Since Zoom Access Token is expired every hour, I need to create a function to refresh the token
+// and schedule it with the Google App Script Default Trigger to run hourly
 
 var Client_ID = 'Client_ID';
 var Client_Secret = 'Client_Secret';
