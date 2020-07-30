@@ -14,3 +14,6 @@ The Integration is built using API method. Google Spreadsheet will send an API G
   - Sheet 2 contains accounts that are listed in Sheet 1 and a few more special accounts.
 
 4. Open Script Editor on the Spreadsheet and start coding.
+
+Below is an example of how the integration works
+![example_gif](pictures/example2.gif)
