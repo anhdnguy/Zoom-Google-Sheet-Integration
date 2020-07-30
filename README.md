@@ -9,7 +9,7 @@ The Integration is built using API method. Google Spreadsheet will send an API G
 
 2. Using the Zoom account with the Admin previlege, set up a Zoom OAuth with the appropriate scopes under Zoom Marketplace. The scopes can be group:write:admin/meeting:master/meeting:write:admin/user:master/user:write:admin. Insert the Spreadsheet's URL into the Whitelist URL.
 
-3. Get the sub Zoom accounts along with their Ids that will be used for scheduling meetings. Add the accounts information on a different tab. For the purpose of my project, I have 2 separate tabs for accounts reference:
+3. Get the sub Zoom accounts along with their Ids that will be used for scheduling meetings. Add the accounts information on a different tab. For the purpose of my project, I have 2 separate tabs for accounts reference. The script will use Sheet 1 to find the available accounts and Sheet 2 to schedule the meeting:
   - Sheet 1 contains the list of accounts which are used strictly for customers and services meeting.
   - Sheet 2 contains accounts that are listed in Sheet 1 and a few more special accounts.
 
