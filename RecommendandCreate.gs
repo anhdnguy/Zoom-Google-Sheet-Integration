@@ -254,8 +254,14 @@ function newMeeting(data, lstId) {
         
     url = 'https://api.zoom.us/v2/users/' + lstId[i] + '/meetings';
     
-    response = JSON.parse(UrlFetchApp.fetch(url,request).getContentText());
-    Zoomlinks[i] = [response['join_url']];
+    try {
+      response = JSON.parse(UrlFetchApp.fetch(url,request).getContentText());
+      Zoomlinks[i] = [response['join_url']];
+    }
+    catch(e) {
+      throw new Error (e);
+      return Zoomlinks;
+    }
   }
   
   return Zoomlinks;
